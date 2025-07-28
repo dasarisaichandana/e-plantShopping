@@ -21,7 +21,7 @@ Buttons to increase/decrease quantity and delete an item
 Continue Shopping and Checkout buttons for seamless user flow
 Real-time updates to the cart quantity icon in the navbar and total cost calculations as users interact with the cart
 Deployment
-The application is deployed using GitHub Pages, providing a simple and reliable way to host static sites. Here's the link to the application: https://sandyavs.github.io/e-plantShopping/
+The application is deployed using GitHub Pages, providing a simple and reliable way to host static sites. Here's the link to the application: https://dasarisaichandana.github.io/e-plantShopping/
 
 Tech Stack
 This project is built using React 18 with Vite for fast development and optimized builds. The application is structured using functional components, React Hooks (useState, useEffect), and Redux Toolkit for global state management.
