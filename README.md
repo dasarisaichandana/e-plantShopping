@@ -46,8 +46,7 @@ Follow these steps to run the Shopping Cart Application locally:
 * **npm install**
 3. Start the Development Server
 * **npm run dev**
-* The app will start at:
-* **http://localhost:5173**
+* The app will start at: **http://localhost:5173**
 4. Build for Production: 
 * **npm run build**
 5. Preview the Production Build: 
