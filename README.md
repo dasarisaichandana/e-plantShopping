@@ -1,49 +1,74 @@
-Paradise Nursery Shopping Application
-Description
-This is an online store application offering a variety of beautiful and beneficial houseplants. The application showcases a dynamic and interactive shopping experience where users can explore plant categories, view product details, and manage their cart efficiently. The application built using Vite and React 18. The goal of the application is to provide users with a seamless and enjoyable online shopping experience for houseplants.
+## 🛒 Shopping Cart Application – Nursery
 
-Learning Objectives
-By completing this project, I was able to:
+### 📝 Description
 
-Build React Components: Create functional and reusable components using proper composition and nesting to keep the structure modular and clean.
-Manage State with Hooks: Use React Hooks like useState and useEffect to handle component-level state and control the visibility and behavior of UI elements.
-Integrate Redux: Apply Redux concepts such as actions, reducers, and the store to manage global application state effectively.
-Render Dynamic Data: Dynamically display content by mapping through arrays of plant objects to generate interactive UI components.
-Handle Events & Conditional Rendering: Capture and respond to user events like button clicks, adjust UI based on state changes, and implement conditional logic to control what gets rendered.
-Features
-A Landing Page with a welcoming intro and a button that navigates to the product listing
-A responsive navigation bar linking to the landing, product listing, and shopping cart pages
-A Product Listing Page with cards for each plant displaying the image, name, description, cost, and an “Add to Cart” button
-Multiple plant categories, such as Aromatic Plants and Medicinal Plants, to organize the inventory
-A Shopping Cart Page that shows:
-Plant cards with thumbnails, unit price, total price, and quantity controls
-Buttons to increase/decrease quantity and delete an item
-Continue Shopping and Checkout buttons for seamless user flow
-Real-time updates to the cart quantity icon in the navbar and total cost calculations as users interact with the cart
-Deployment
-The application is deployed using GitHub Pages, providing a simple and reliable way to host static sites. Here's the link to the application: https://dasarisaichandana.github.io/e-plantShopping/
+This is a simple and interactive web-based shopping cart application focused on nursery plants. It allows users to browse categorized plant items, view details, and manage their shopping cart with ease. Built using **React 18**, **Redux Toolkit**, and **Vite**, the app ensures fast performance and a smooth user experience.
 
-Tech Stack
-This project is built using React 18 with Vite for fast development and optimized builds. The application is structured using functional components, React Hooks (useState, useEffect), and Redux Toolkit for global state management.
+### 🎯 Learning Objectives
 
-Result
-Landing Page
-The landing page welcomes users to Paradise Nursery with a visually appealing layout, a brief introduction to the shop, and a "Get Started" button that leads to the product listing page. It sets the tone for a smooth and engaging plant shopping experience.
+* **Build Modular Components**: Developed functional and reusable components for scalable UI.
+* **Manage State with Hooks**: Used `useState` and `useEffect` for managing local component logic.
+* **Implement Redux**: Handled global state using actions, reducers, and a Redux store.
+* **Dynamic Rendering**: Displayed plant listings dynamically using array mapping by categories.
+* **Event Handling & Conditional Rendering**: Enabled user interaction with cart updates and UI changes.
 
-image
-Product List Page
-The product listing page showcases a variety of houseplants organized into sections like Aromatic Plants and Medicinal Plants. Each plant is displayed in a card with its image, name, description, price, and an Add to Cart button, allowing users to browse and shop easily.
+### ✨ Features
 
-image
-Shopping Cart Page
-The Shopping Cart Page displays all the selected plants in a clean, card-based layout. Each card shows the plant’s image, name, unit price, quantity controls, total price, and a Delete button. Users can easily adjust quantities or remove items, with options to Continue Shopping or proceed to Checkout.
+* **Landing Page** with a brief introduction and navigation to the product section.
+* **Responsive Navbar** with real-time cart item counter and navigation links.
+* **Product Listing** organized by plant categories (e.g., Air Purifying, Medicinal).
+* **Plant Cards** with image, description, cost, and “Add to Cart” functionality.
+* **Shopping Cart** page with:
 
-image
-Continue Shopping
-When clicked, it takes to the product list page where additional items can be added to the cart
+  * Quantity adjustments and total pricing
+  * Delete, Continue Shopping, and Checkout options
+  * Live cart count and total cost updates
 
-image
-Checkout
-When the Checkout button is clicked, the app will guide users to review their selected products before proceeding to payment. Once confirmed, the user will be directed to the payment section. This feature is planned for integration at a later stage. To handle payments securely and efficiently, Stripe should be used as the payment gateway as it is widely trusted, developer-friendly, and provides built-in security.
+### 🚀 Deployment
 
-Screenshot 2025-07-28 at 1 05 37 AM
+Hosted on GitHub Pages:
+🔗 [Live Site](https://dasarisaichandana.github.io/e-plantShopping/)
+
+### 🛠 Tech Stack
+
+* **React 18**
+* **Redux Toolkit**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS Modules**
+### Setup Instructions
+Follow these steps to run the Shopping Cart Application locally:
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/dasarisaichandana/e-plantShopping.git
+cd e-plantShopping
+2. Install Dependencies
+Ensure Node.js (v16 or above) is installed. Then run:
+
+bash
+Copy
+Edit
+npm install
+3. Start the Development Server
+bash
+Copy
+Edit
+npm run dev
+The app will start at:
+
+arduino
+Copy
+Edit
+http://localhost:5173
+4. Build for Production
+bash
+Copy
+Edit
+npm run build
+5. Preview the Production Build
+bash
+Copy
+Edit
+npm run preview
