@@ -41,18 +41,17 @@ Follow these steps to run the Shopping Cart Application locally:
 1. Clone the Repository **git clone https://github.com/dasarisaichandana/e-plantShopping.git**
 
 **cd e-plantShopping**
+
 3. Install Dependencies
 Ensure Node.js (v16 or above) is installed. Then run:
 
-npm install
+**npm install**
+
 4. Start the Development Server
-npm run dev
-
+**npm run dev**
 The app will start at:
-http://localhost:5173
+**http://localhost:5173**
 5. Build for Production: 
-
-npm run build
+**npm run build**
 6. Preview the Production Build: 
-
-npm run preview
+**npm run preview**
